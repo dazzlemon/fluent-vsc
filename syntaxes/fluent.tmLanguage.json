@@ -1,0 +1,65 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "fluent",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{ "include": "#comments" },
+		{ "include": "#constants" },
+		{ "include": "#variables" },
+		{ "include": "#arrows" }
+	],
+	"repository": {
+		"comments": {
+			"name": "comment.fluent",
+			"begin": "#",
+			"end": "\n"
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.fluent",
+				"match": "\\b(match)\\b"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.fluent",
+				"match": "\\b[A-Za-z][A-Za-z0-9_]*\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.fluent",
+			"begin": "'",
+			"end": "'"
+		},
+		"arrows": {
+			"patterns": [
+				{
+					"name": "keyword.operator.fluent",
+					"match": "<-"
+				},
+				{
+					"name": "keyword.operator.fluent",
+					"match": "->"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.numeric.fluent",
+					"match": "-?([0-9]+|([0-9]*\\.[0-9]+))"
+				},
+				{
+					"name": "constant.language.null.fluent",
+					"match": "\\bNULL\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.fluent"
+}

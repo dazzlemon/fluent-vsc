@@ -1,0 +1,25 @@
+{
+    "name": "fluent-vsc",
+    "displayName": "fluent, the programming language",
+    "description": "Syntax highlighting and some basic support for fluent.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "fluent",
+            "aliases": ["fluent", "fluent"],
+            "extensions": [".fluent"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "fluent",
+            "scopeName": "source.fluent",
+            "path": "./syntaxes/fluent.tmLanguage.json"
+        }]
+    }
+}
