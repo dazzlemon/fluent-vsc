@@ -8,13 +8,13 @@ Currently there are not many features:
 
 ### Syntax highlighting (more like lexical highlighting)
 
-\!\[Syntax highlighting\]\(images/syntax-highlighting.png\)
+![Syntax highlighting](images/syntax-highlighting.png)
 
 ### General QoL
 
 You can comment your code, enclose it in brackets, quotes, parens, braces.
 
-\!\[Syntax highlighting\]\(images/stuff.gif\)
+![Syntax highlighting](images/stuff.gif)
 
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
