@@ -1,14 +1,21 @@
-# fluent--the-programming-language README
+# fluent-vsc
 
-This is the README for your extension "fluent--the-programming-language". After writing up a brief description, we recommend including the following sections.
+fluent (the programming language) support for vscode.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Currently there are not many features:
 
-For example if there is an image subfolder under your extension project workspace:
+### Syntax highlighting (more like lexical highlighting)
 
-\!\[feature X\]\(images/feature-x.png\)
+\!\[Syntax highlighting\]\(images/syntax-highlighting.png\)
+
+### General QoL
+
+You can comment your code, enclose it in brackets, quotes, parens, braces.
+
+\!\[Syntax highlighting\]\(images/stuff.gif\)
+
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
